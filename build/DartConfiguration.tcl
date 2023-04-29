@@ -14,7 +14,7 @@ CostDataFile:
 Site: Ellies-MacBook-Pro.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Darwin-g++-12
+BuildName: Darwin-clang++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -45,7 +45,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: 
+GITCommand: /usr/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,13 +58,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
-Compiler: /usr/local/bin/g++-12
-CompilerVersion: 12.2.0
+Compiler: /Library/Developer/CommandLineTools/usr/bin/clang++
+CompilerVersion: 14.0.3.14030022
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

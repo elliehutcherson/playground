@@ -73,15 +73,15 @@ src/CMakeFiles/playground.dir/main.cpp.o: src/CMakeFiles/playground.dir/flags.ma
 src/CMakeFiles/playground.dir/main.cpp.o: /Users/ellie/Projects/playground/src/main.cpp
 src/CMakeFiles/playground.dir/main.cpp.o: src/CMakeFiles/playground.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ellie/Projects/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/playground.dir/main.cpp.o"
-	cd /Users/ellie/Projects/playground/build/src && /usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/playground.dir/main.cpp.o -MF CMakeFiles/playground.dir/main.cpp.o.d -o CMakeFiles/playground.dir/main.cpp.o -c /Users/ellie/Projects/playground/src/main.cpp
+	cd /Users/ellie/Projects/playground/build/src && /Library/Developer/CommandLineTools/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/playground.dir/main.cpp.o -MF CMakeFiles/playground.dir/main.cpp.o.d -o CMakeFiles/playground.dir/main.cpp.o -c /Users/ellie/Projects/playground/src/main.cpp
 
 src/CMakeFiles/playground.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playground.dir/main.cpp.i"
-	cd /Users/ellie/Projects/playground/build/src && /usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ellie/Projects/playground/src/main.cpp > CMakeFiles/playground.dir/main.cpp.i
+	cd /Users/ellie/Projects/playground/build/src && /Library/Developer/CommandLineTools/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ellie/Projects/playground/src/main.cpp > CMakeFiles/playground.dir/main.cpp.i
 
 src/CMakeFiles/playground.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playground.dir/main.cpp.s"
-	cd /Users/ellie/Projects/playground/build/src && /usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ellie/Projects/playground/src/main.cpp -o CMakeFiles/playground.dir/main.cpp.s
+	cd /Users/ellie/Projects/playground/build/src && /Library/Developer/CommandLineTools/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ellie/Projects/playground/src/main.cpp -o CMakeFiles/playground.dir/main.cpp.s
 
 # Object files for target playground
 playground_OBJECTS = \
@@ -92,7 +92,12 @@ playground_EXTERNAL_OBJECTS =
 
 src/playground: src/CMakeFiles/playground.dir/main.cpp.o
 src/playground: src/CMakeFiles/playground.dir/build.make
+src/playground: include/SDL/libSDL2main.a
+src/playground: include/SDL/libSDL2.a
+src/playground: include/SDL_image/libSDL2_image.a
 src/playground: src/dice/libdice.a
+src/playground: src/experimental/libexperimental.a
+src/playground: include/SDL/libSDL2.a
 src/playground: src/CMakeFiles/playground.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ellie/Projects/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable playground"
 	cd /Users/ellie/Projects/playground/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/playground.dir/link.txt --verbose=$(VERBOSE)

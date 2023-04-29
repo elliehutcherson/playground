@@ -73,15 +73,15 @@ src/dice/CMakeFiles/dice.dir/dice.cc.o: src/dice/CMakeFiles/dice.dir/flags.make
 src/dice/CMakeFiles/dice.dir/dice.cc.o: /Users/ellie/Projects/playground/src/dice/dice.cc
 src/dice/CMakeFiles/dice.dir/dice.cc.o: src/dice/CMakeFiles/dice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ellie/Projects/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/dice/CMakeFiles/dice.dir/dice.cc.o"
-	cd /Users/ellie/Projects/playground/build/src/dice && /usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/dice/CMakeFiles/dice.dir/dice.cc.o -MF CMakeFiles/dice.dir/dice.cc.o.d -o CMakeFiles/dice.dir/dice.cc.o -c /Users/ellie/Projects/playground/src/dice/dice.cc
+	cd /Users/ellie/Projects/playground/build/src/dice && /Library/Developer/CommandLineTools/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/dice/CMakeFiles/dice.dir/dice.cc.o -MF CMakeFiles/dice.dir/dice.cc.o.d -o CMakeFiles/dice.dir/dice.cc.o -c /Users/ellie/Projects/playground/src/dice/dice.cc
 
 src/dice/CMakeFiles/dice.dir/dice.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dice.dir/dice.cc.i"
-	cd /Users/ellie/Projects/playground/build/src/dice && /usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ellie/Projects/playground/src/dice/dice.cc > CMakeFiles/dice.dir/dice.cc.i
+	cd /Users/ellie/Projects/playground/build/src/dice && /Library/Developer/CommandLineTools/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ellie/Projects/playground/src/dice/dice.cc > CMakeFiles/dice.dir/dice.cc.i
 
 src/dice/CMakeFiles/dice.dir/dice.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dice.dir/dice.cc.s"
-	cd /Users/ellie/Projects/playground/build/src/dice && /usr/local/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ellie/Projects/playground/src/dice/dice.cc -o CMakeFiles/dice.dir/dice.cc.s
+	cd /Users/ellie/Projects/playground/build/src/dice && /Library/Developer/CommandLineTools/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ellie/Projects/playground/src/dice/dice.cc -o CMakeFiles/dice.dir/dice.cc.s
 
 # Object files for target dice
 dice_OBJECTS = \

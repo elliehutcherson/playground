@@ -1,2 +1,2 @@
-/usr/bin/ar qc libdice.a CMakeFiles/dice.dir/dice.cc.o
-/usr/bin/ranlib libdice.a
+/Library/Developer/CommandLineTools/usr/bin/ar qc libdice.a CMakeFiles/dice.dir/dice.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libdice.a

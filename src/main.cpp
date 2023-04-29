@@ -1,18 +1,18 @@
 #include <iostream>
 #include <stdio.h>
-// #include <ranges>
 
-// #include "dice/dice.h"
-// #include "experimental/experimental.h"
+#include "SDL.h"
+#include "SDL_image.h"
+
+#include "dice/dice.h"
+#include "experimental/experimental.h"
 
 
 int main(int argc, char *argv[]) {
-    if (argc < 2) {
-        printf("ERROR: You need at least one argument.\n");
-        return -1;
-    }
-
-    std::cout << *argv << std::endl;
-
+    SDL_Rect rect;
+    rect.h = 0;
+    SDL_Renderer* renderer = nullptr;
+    SDL_LogInfo(0, "HELLO");
+    experimental::Main();
     return 0;
 }
