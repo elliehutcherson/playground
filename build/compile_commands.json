@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/ellie/Projects/playground/build/src/dice",
+  "command": "/usr/local/bin/g++-12  -I/Users/ellie/Projects/playground/src/dice -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/dice.dir/dice.cc.o -c /Users/ellie/Projects/playground/src/dice/dice.cc",
+  "file": "/Users/ellie/Projects/playground/src/dice/dice.cc",
+  "output": "src/dice/CMakeFiles/dice.dir/dice.cc.o"
+},
+{
+  "directory": "/Users/ellie/Projects/playground/build/src/experimental",
+  "command": "/usr/local/bin/g++-12  -I/Users/ellie/Projects/playground/src/experimental -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/experimental.dir/experimental.cc.o -c /Users/ellie/Projects/playground/src/experimental/experimental.cc",
+  "file": "/Users/ellie/Projects/playground/src/experimental/experimental.cc",
+  "output": "src/experimental/CMakeFiles/experimental.dir/experimental.cc.o"
+},
+{
+  "directory": "/Users/ellie/Projects/playground/build/src",
+  "command": "/usr/local/bin/g++-12  -I/Users/ellie/Projects/playground/src/dice -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/playground.dir/main.cpp.o -c /Users/ellie/Projects/playground/src/main.cpp",
+  "file": "/Users/ellie/Projects/playground/src/main.cpp",
+  "output": "src/CMakeFiles/playground.dir/main.cpp.o"
+}
+]

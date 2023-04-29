@@ -1,0 +1,1 @@
+/usr/local/bin/g++-12 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/playground.dir/main.cpp.o -o playground  dice/libdice.a 
